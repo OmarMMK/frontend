@@ -1,4 +1,3 @@
-js
 import { Routes, Route } from 'react-router-dom';
 import UserForm from './components/UserForm';
 import AdminDashboard from './components/AdminDashboard';
