@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-import { Routes, Route } from 'react-router-dom';
-import UserForm from './components/UserForm';
-import AdminDashboard from './components/AdminDashboard';
-
-function App() {
-  return (
-    <Routes>
-      <Route path="/form" element={<UserForm />} />
-      <Route path="/admin" element={<AdminDashboard />} />
-    </Routes>
-  );
-}
-=======
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -38,5 +24,4 @@ const App = () => {
   );
 };
 
->>>>>>> a64be7e (first push)
 export default App;
